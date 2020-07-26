@@ -1,0 +1,128 @@
+* {
+  font-family: Clarkson, Helvetica, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: rgb(53, 60, 61);
+}
+
+section {
+  margin: 0;
+}
+
+li {
+  margin-top: 30px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  list-style: none;
+}
+
+strong {
+  font-size: 1.3em;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 920px;
+  padding: 60px 30px;
+  margin: 0 auto;
+}
+
+.bg-color {
+  background-color: rgb(224, 224, 219);;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 30px 0;
+}
+
+.tc {
+  text-align: center;
+}
+
+#sub-title {
+  font-size: 2em;
+}
+
+#hero-text {
+  max-width: 520px;
+}
+
+#hero {
+  min-height: 500px;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: 20% 0%;
+  background-size: cover;
+  background-image: url("https://www.achievement.org/wp-content/uploads/2016/04/borlaug8-Feature-Image-2800x1120-3.jpg");
+}
+
+#flex-hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  #hero {
+    background-position: 40% 0%;
+  }
+}
+
+@media (max-width: 650px) {
+  #hero {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("https://www.achievement.org/wp-content/uploads/2016/04/borlaug8-Feature-Image-2800x1120-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+  }
+
+  #hero-text {
+    text-align: center;
+  }
+
+  #flex-hero {
+    justify-content: center;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#link {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#link-text {
+  font-size: 2em;
+}
